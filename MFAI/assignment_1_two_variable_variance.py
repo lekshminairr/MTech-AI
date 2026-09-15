@@ -1,11 +1,13 @@
-#reading number of datapoints in the order (ht,wt)
-rows=input("Enter the number of rows/data points")
-n=int(rows)
-matrix=[]
-for i in range(n):
-    ht=float(input(f"Enter height{i+1}:"))
-    wt=float(input(f"Enter weight{i+1}:"))
-    matrix.append([ht,wt])
+# #reading number of datapoints in the order (ht,wt)
+# rows=input("Enter the number of rows/data points")
+# n=int(rows)
+# matrix=[]
+# for i in range(n):
+#     ht=float(input(f"Enter height{i+1}:"))
+#     wt=float(input(f"Enter weight{i+1}:"))
+#     matrix.append([ht,wt])
+n=6
+matrix=[[1.70,72.0],[1.62,64.0],[1.52,84.0],[1.85,80.0],[1.91,72.0],[1.42,70.0]]
 #checking if n>1 to avoid division by zero at later point(n-1) and logically too
 if n<2:
     print("\n Error enter atleast two datapoints:")
