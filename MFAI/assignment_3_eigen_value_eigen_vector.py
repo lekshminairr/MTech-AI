@@ -3,16 +3,21 @@ lambda^3 - trace(A)lambda^2 + ((ae-bd)+ai-cg+(ei-fh))lambda- determinant(A) = 0
 the eigen values by bisection method, eigen vectors by cross products of the rows
 (after substituting the respective eigen values)'''
 
-matrix = []
+# matrix = []
 
-print("Enter the elements of the 3 x 3 matrix:")
+# print("Enter the elements of the 3 x 3 matrix:")
 
-for i in range(3):
-    row = []
-    for j in range(3):
-        value = float(input(f"Enter [{i},{j}]: "))
-        row.append(value)
-    matrix.append(row)
+# for i in range(3):
+#     row = []
+#     for j in range(3):
+#         value = float(input(f"Enter [{i},{j}]: "))
+#         row.append(value)
+#     matrix.append(row)
+matrix=[
+    [9.066964285714286,-10.076785714285716,-0.726785714285714],
+    [-10.076785714285716,159.125,123.05357142857143],
+    [-0.726785714285714,123.05357142857143,684.6964285714286]
+]
 
 
 # Displaying the matrix
