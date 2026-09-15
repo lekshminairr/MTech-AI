@@ -2,13 +2,7 @@
 # rows = input("Enter the number of rows/data points: ")
 # n = int(rows)
 
-# matrix = []
 
-# for i in range(n):
-#     x = float(input(f"Enter x {i+1}: "))
-#     y = float(input(f"Enter y {i+1}: "))
-#     z = float(input(f"Enter z {i+1}: "))
-#     matrix.append([x, y, z])
 n=8
 matrix=[
     [12.1,48,101],[13.2,59,171],[15.6,32,112],[17.2,18,132],
