@@ -1,14 +1,19 @@
-# reading number of datapoints in the order (x, y, z)
-rows = input("Enter the number of rows/data points: ")
-n = int(rows)
+# # reading number of datapoints in the order (x, y, z)
+# rows = input("Enter the number of rows/data points: ")
+# n = int(rows)
 
-matrix = []
+# matrix = []
 
-for i in range(n):
-    x = float(input(f"Enter x {i+1}: "))
-    y = float(input(f"Enter y {i+1}: "))
-    z = float(input(f"Enter z {i+1}: "))
-    matrix.append([x, y, z])
+# for i in range(n):
+#     x = float(input(f"Enter x {i+1}: "))
+#     y = float(input(f"Enter y {i+1}: "))
+#     z = float(input(f"Enter z {i+1}: "))
+#     matrix.append([x, y, z])
+n=8
+matrix=[
+    [12.1,48,101],[13.2,59,171],[15.6,32,112],[17.2,18,132],
+    [18.8,41,140],[10.3,32,112],[11.7,31,151],[16.4,30,96]
+]
 
 # checking if n > 1 to avoid division by zero at later point (n-1)
 if n < 2:
